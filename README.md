@@ -1,2 +1,6 @@
 # Restaurezia-K-Dimensional-Treap
-•Restaurezia, an application that searches for restaurants that exist in the user’s location and if restaurants are not found in that location, suitable suggestions that are in the nearby locations are displayed. The implementation of this application is based on the fusion of binary search tree and heap, extended to k dimensions. 
+The implementation of this application is based on the fusion of binary search tree+heap =treap extended to k dimensions./
+
+“Restaurezia” is an application that serves as a data base of restaurants around the world. The person who uses the application can search for restaurants that are in his location and if restaurants are not found in the location asked,suitable suggestions that provide restaurants in the nearby locations are displayed.The k-dimensions are used for storing the address of the restaurants from the continent level to the location level.Hence a zooming effect while searching for the restaurant is obtained.We have drawn the inspiration from Google maps and have added extra features like suitable suggestions,deletion and addition of authorized restaurants.Yeah!You are just a click away from finding the tasty restaurants in your location./
+
+Since we are using both the BST and Heap property,portraying randomization and most importantly the k-dimensions,the height of the data structure thus formed is drastically reduced in storing the restaurants.Thus,this serves as an efficient application in bringing down the time complexity of the application to O(klogn).
